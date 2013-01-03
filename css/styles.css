@@ -65,6 +65,10 @@ body {
     z-index: 9;
   }
 
+  .carousel-inner {
+    height: 500px
+  }
+
   .carousel-control {
     height: 80px;
     margin-top: 0;
@@ -83,6 +87,26 @@ body {
     left: 0;
     min-width: 100%;
     height: 500px;
+  }
+
+  .logo {
+    position: relative;
+    top: -100px;
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .carousel .snapshot {
+    width: 420px;
+    height: 500px;
+    position: relative;
+    float: right;
+    top: -355px
+  }
+
+  .snapshot img, .logo img{
+    min-width: auto;
+    height: auto
   }
 
   .carousel-caption {
@@ -175,6 +199,16 @@ body {
       height: 500px;
     }
 
+    .snapshot img, .logo img{
+      min-width: auto;
+      height: auto
+    }
+    .logo {
+      float: left;
+      left: 15%;
+    }
+
+
     .featurette {
       height: auto;
       padding: 0;
@@ -205,9 +239,13 @@ body {
     .carousel .item {
       height: 300px;
     }
-    .carousel img {
-      height: 300px;
+
+
+    .snapshot img, .logo img {
+      min-width: auto;
+      height: auto
     }
+
     .carousel-caption {
       width: 65%;
       padding: 0 70px;
