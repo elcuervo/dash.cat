@@ -1,4 +1,5 @@
 source :rubygems
 
-gem "rack"
+gem "cuba"
+gem "cuba-sugar"
 gem "thin"
