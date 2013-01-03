@@ -3,7 +3,7 @@ require "cuba/sugar/routes"
 
 Cuba.plugin Cuba::Sugar::Routes
 Cuba.define do
-  on subdomain("app") do
+  on subdomain("track") do
     run Rack::Static.new @app, urls: [""], root: '.', index: 'tracker.html'
   end
 
