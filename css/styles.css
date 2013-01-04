@@ -88,18 +88,16 @@ body {
 }
 
 .logo {
-  position: relative;
-  top: -100px;
   width: 150px;
   margin: 0 auto;
 }
 
 .carousel .snapshot {
-  width: 420px;
+  width: 500px;
   height: 500px;
   position: relative;
   float: right;
-  top: -355px;
+  top: -390px;
   left: 20px
 }
 
@@ -111,7 +109,7 @@ body {
 .carousel-caption {
   background-color: transparent;
   position: static;
-  max-width: 500px;
+  max-width: 400px;
   padding: 0 20px;
   margin-top: 200px;
 }
@@ -192,7 +190,7 @@ body {
 
   .carousel-caption {
     margin-top: 150px;
-    max-width: 300px
+    max-width: 263px
   }
 
   .navbar-inner {
@@ -208,16 +206,10 @@ body {
     height: 500px;
   }
 
-  .snapshot img, .logo img{
+  .snapshot img, .logo img {
     min-width: auto;
     height: auto
   }
-
-  .logo {
-    float: left;
-    left: 15%;
-  }
-
 
   .featurette {
     height: auto;
@@ -255,12 +247,6 @@ body {
 
   .snapshot {
     display: none
-  }
-
-  .logo {
-    float: initial;
-    left: 0;
-    top: -60px
   }
 
   .snapshot img, .logo img {
