@@ -99,7 +99,8 @@ body {
   height: 500px;
   position: relative;
   float: right;
-  top: -355px
+  top: -355px;
+  left: 20px
 }
 
 .snapshot img, .logo img{
@@ -110,7 +111,7 @@ body {
 .carousel-caption {
   background-color: transparent;
   position: static;
-  max-width: 550px;
+  max-width: 500px;
   padding: 0 20px;
   margin-top: 200px;
 }
@@ -258,7 +259,8 @@ body {
 
   .logo {
     float: initial;
-    left: 0
+    left: 0;
+    top: -60px
   }
 
   .snapshot img, .logo img {
