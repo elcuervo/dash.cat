@@ -184,9 +184,14 @@ body {
 -------------------------------------------------- */
 
 @media (max-width: 979px) {
-  .container.navbar-wrapper {
+  .container .navbar-wrapper {
     margin-bottom: 0;
     width: auto;
+  }
+
+  .carousel-caption {
+    margin-top: 150px;
+    max-width: 300px
   }
 
   .navbar-inner {
@@ -206,6 +211,7 @@ body {
     min-width: auto;
     height: auto
   }
+
   .logo {
     float: left;
     left: 15%;
@@ -236,10 +242,23 @@ body {
     margin-right: -20px;
   }
 
+  .carousel-inner {
+    height: 350px
+  }
+
   .carousel .container {}
 
   .carousel .item {
     height: 300px;
+  }
+
+  .snapshot {
+    display: none
+  }
+
+  .logo {
+    float: initial;
+    left: 0
   }
 
   .snapshot img, .logo img {
