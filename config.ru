@@ -1,5 +1,6 @@
 require "cuba"
 require "cuba/sugar/routes"
+require "cuba/render"
 require "dalli"
 require "rack/cache"
 
@@ -12,6 +13,7 @@ class DashCat < Cuba
   dalli = Dalli::Client.new
 
   plugin Cuba::Sugar::Routes
+  plugin Cuba::Render
 
   use Rack::Cache, {
     verbose:     true,
@@ -24,8 +26,16 @@ class DashCat < Cuba
       run Rack::Static.new @app, urls: [""], root: '.', index: 'tracker.html'
     end
 
+    on root do
+      res.write view("home")
+    end
+
+    on "about" do
+      res.write view("about")
+    end
+
     on default, get do
-      run Rack::Static.new @app, urls: [""], root: '.', index: 'index.html'
+      run Rack::Static.new @app, urls: [""], root: 'public'
     end
   end
 end

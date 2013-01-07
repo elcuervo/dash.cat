@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>DashCat &middot; the GitHub Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DashCat the GitHub Dashboard">
+    <meta name="author" content="elcuervo">
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/img/wood.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>DashCat</h1>
+              <p class="lead">
+                The prettiest way to browse GitHub.
+                Get notifications, merge pull requests and discover interesting
+                projects!.
+              </p>
+              <a class="btn btn-large btn-primary" href="http://bit.ly/dashcat_v01">Download</a>
+            </div>
+            <div class="snapshot">
+              <img src="/img/snap.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <a href="https://github.com/elcuervo/dashcat"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+    <%= content %>
+
+    <div class="container">
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="/about">About</a></p>
+        <p>&copy; 2012 elcuervo</p>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37067111-1']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ?  'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0];
+       s.parentNode.insertBefore(ga, s);
+       })();
+     </script>
+   </body>
+</html>
