@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>DashCat Changelog</title>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.1</title>
+      <description>
+        <![CDATA[
+          <h1>Initial release of DashCat!</h1>
+        ]]>
+      </description>
+      <pubDate>Mon Jan 7 13:43:38 UTC 2013</pubDate>
+      <enclosure url="http://bit.ly/DashCat_v01" sparkle:version="0.1" length="1808566" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCBB1z2KgyfprCe74wORopk8kOytgIUQwvIivJYC/ujeZ4eLMMtVsaG3og=" />
+    </item>
+  </channel>
+</rss>
