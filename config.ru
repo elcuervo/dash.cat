@@ -30,6 +30,10 @@ class DashCat < Cuba
       res.write view("home")
     end
 
+    on "ct" do
+      res.write view("home_ct")
+    end
+
     on "about" do
       res.write view("about")
     end
